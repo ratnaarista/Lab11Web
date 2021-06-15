@@ -33,5 +33,6 @@ Arahkan lokasi direktori sesuai dengan direktori kerja project yang sudah dibuat
 Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah php spark
 
 ![php spark](https://user-images.githubusercontent.com/56379930/122051574-f332f880-ce0e-11eb-9a3c-b7b7d1447049.png)
+
 Mengaktifkan Mode Debugging pada Codeigniter
 ![whoops](https://user-images.githubusercontent.com/56379930/122051622-00e87e00-ce0f-11eb-88be-320bef906069.png)
