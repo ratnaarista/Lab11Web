@@ -54,6 +54,14 @@ Tambahkan method baru pada Controller Page seperti berikut.
 # Membuat View
 Buat file baru dengan nama `about.php` pada direktori view `(app/view/about.php)` kemudian coding seperti berikut.
 ![sehabis page](https://user-images.githubusercontent.com/56379930/122883423-61c00b00-d367-11eb-9d01-22bfb83bba11.png)
+![halaman about](https://user-images.githubusercontent.com/56379930/122887223-e2ccd180-d36a-11eb-82fc-58ce246e33cd.png)
+# Membuat Layout Web dengan CSS
+Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada Codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset `css` dan `javascript` terletak pada direktori `public`. Buat file css pada direktori public dengan nama `style.css`
+
 ![style](https://user-images.githubusercontent.com/56379930/122883568-89af6e80-d367-11eb-9a27-c7d988f3a17a.png)
+
+Kemudian buat folder template pada direktori view kemudian buat file `header.php` dan `footer.php`
+
 ![template](https://user-images.githubusercontent.com/56379930/122883589-8fa54f80-d367-11eb-8588-f203dba58691.png)
+
 ![halaman about output](https://user-images.githubusercontent.com/56379930/122883934-d7c47200-d367-11eb-870a-54a7392a3025.png)
