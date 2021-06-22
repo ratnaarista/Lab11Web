@@ -121,12 +121,19 @@ Buka Kembali file `app/config/Routes.php` kemudian tambahkan routing untuk artik
 ![p12(11)](https://user-images.githubusercontent.com/56379930/122900851-380ee000-d377-11eb-8f57-b5c82c18efb7.png)
 # Langkah 8 - Membuat Menu Admin
 Buat method baru pada `Controller Artikel` dengan nama `admin_index().`
+![admin index](https://user-images.githubusercontent.com/56379930/122908242-1c5b0800-d37e-11eb-9a6e-914742120c90.png)
+Setelah itu buat template header dan footer baru untuk Halaman Admin. Buat file baru dengan nama `admin_header.php` pada direktori `app/view/template`
+![admin header](https://user-images.githubusercontent.com/56379930/122908287-2846ca00-d37e-11eb-9ef2-98f9e8d52ac6.png)
+Dan Buat file baru lagi dengan nama `admin_footer.php` pada direktori `app/view/template`
+![admin footer](https://user-images.githubusercontent.com/56379930/122908259-20872580-d37e-11eb-89a9-7b3ae53a5190.png)
+Kemudian buat file baru lagi dengan nama `admin.css` pada direktori `ci4/public` untuk mempercantik tampilan Halaman Admin
+Akses menu admin dengan url http://localhost:8080/admin/artikel
 ![p12(12)](https://user-images.githubusercontent.com/56379930/122900884-3e04c100-d377-11eb-99ea-c1a6ec49f082.png)
 # Langkah 9 - Menambah Data Artikel
 Tambahkan fungsi/method baru pada `Controller Artikel` dengan `nama add().`
 ![p12(13)](https://user-images.githubusercontent.com/56379930/122900899-40ffb180-d377-11eb-8a42-5a6573b63bd7.png)
 Kemudian buat view untuk form tambah dengan nama `form_add.php`
--
+![form add](https://user-images.githubusercontent.com/56379930/122908478-5c21ef80-d37e-11eb-89b4-5c768ef85237.png)
 Klik menu `Tambah Artikel` dan inilah hasilnya
 ![p12(15)](https://user-images.githubusercontent.com/56379930/122900932-4957ec80-d377-11eb-92c4-d1efaa16d4ab.png)
 # Langkah 10 - Mengubah Data
@@ -139,3 +146,6 @@ Klik ubah pada salah satu artikel dan inilah hasilnya
 # Langkah 11 - Menghapus Data
 Tambahkan fungsi/method baru pada `Controller Artikel` dengan nama `delete().`
 ![p12(19)](https://user-images.githubusercontent.com/56379930/122901103-6e4c5f80-d377-11eb-8962-682333feb5b0.png)
+![admin index](https://user-images.githubusercontent.com/56379930/122908242-1c5b0800-d37e-11eb-9a6e-914742120c90.png)
+![admin header](https://user-images.githubusercontent.com/56379930/122908287-2846ca00-d37e-11eb-9ef2-98f9e8d52ac6.png)
+![admin footer](https://user-images.githubusercontent.com/56379930/122908259-20872580-d37e-11eb-89a9-7b3ae53a5190.png)
