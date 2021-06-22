@@ -102,23 +102,40 @@ Buat Controller baru dengan nama `Artikel.php` pada direktori `app/Controllers.`
 ![p12(5)](https://user-images.githubusercontent.com/56379930/122893288-65a45b00-d370-11eb-8f7c-6c3e3cfa3be5.png)
 # Langkah 4 - Membuat View
 Buat folder baru dengan nama `artikel` pada direktori `app/views`, kemudian buat file baru dengan nama `index.php.`
+![index](https://user-images.githubusercontent.com/56379930/122904149-46123000-d37a-11eb-95bb-0ebd73d01c21.png)
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
 ![p12(6)](https://user-images.githubusercontent.com/56379930/122900714-20375c00-d377-11eb-9dd8-247143b8a110.png)
-
-![p12(7)](https://user-images.githubusercontent.com/56379930/122900730-2299b600-d377-11eb-9b39-8a8576893cca.png)
-
-![P12(8)](https://user-images.githubusercontent.com/56379930/122900740-2594a680-d377-11eb-9183-aabeafb9d5a6.png)
+Kemudian tambahkan beberapa data pada database agar dapat ditampilkan datanya.
+![local](https://user-images.githubusercontent.com/56379930/122904163-490d2080-d37a-11eb-9552-6b7ce58e49f6.png)
 Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+![p12(7)](https://user-images.githubusercontent.com/56379930/122900730-2299b600-d377-11eb-9b39-8a8576893cca.png)
+# Langkah 5 - Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada `Controller Artikel` dengan nama `view().`
+![P12(8)](https://user-images.githubusercontent.com/56379930/122900740-2594a680-d377-11eb-9183-aabeafb9d5a6.png)
+# Langkah 6 - Membuat View Detail
+Buat view baru untuk halaman detail dengan nama `app/views/artikel/detail.php.`
 ![p12(9)](https://user-images.githubusercontent.com/56379930/122900775-2c231e00-d377-11eb-9401-99288ac62123.png)
-
+# Langkah 7 - Membuat Routing untuk artikel detail
+Buka Kembali file `app/config/Routes.php` kemudian tambahkan routing untuk artikel detail.
 ![p12(10)](https://user-images.githubusercontent.com/56379930/122900819-32b19580-d377-11eb-8576-4d48efaf969f.png)
-
 ![p12(11)](https://user-images.githubusercontent.com/56379930/122900851-380ee000-d377-11eb-8f57-b5c82c18efb7.png)
-
+# Langkah 8 - Membuat Menu Admin
+Buat method baru pada `Controller Artikel` dengan nama `admin_index().`
 ![p12(12)](https://user-images.githubusercontent.com/56379930/122900884-3e04c100-d377-11eb-99ea-c1a6ec49f082.png)
+# Langkah 9 - Menambah Data Artikel
+Tambahkan fungsi/method baru pada `Controller Artikel` dengan `nama add().`
 ![p12(13)](https://user-images.githubusercontent.com/56379930/122900899-40ffb180-d377-11eb-8a42-5a6573b63bd7.png)
-
+Kemudian buat view untuk form tambah dengan nama `form_add.php`
+-
+Klik menu `Tambah Artikel` dan inilah hasilnya
 ![p12(15)](https://user-images.githubusercontent.com/56379930/122900932-4957ec80-d377-11eb-92c4-d1efaa16d4ab.png)
+# Langkah 10 - Mengubah Data
+Tambahkan fungsi/method baru pada `Controller Artikel` dengan nama `edit().`
 ![p12(16](https://user-images.githubusercontent.com/56379930/122900976-5248be00-d377-11eb-84be-04369d101172.png)
+Kemudian buat view untuk form tambah dengan nama `form_edit.php`
 ![p12(17)](https://user-images.githubusercontent.com/56379930/122901007-583e9f00-d377-11eb-83d3-74e982a5d148.png)
+Klik ubah pada salah satu artikel dan inilah hasilnya
 ![p12(18)](https://user-images.githubusercontent.com/56379930/122901094-6bea0580-d377-11eb-83d4-67bfe4b82543.png)
+# Langkah 11 - Menghapus Data
+Tambahkan fungsi/method baru pada `Controller Artikel` dengan nama `delete().`
 ![p12(19)](https://user-images.githubusercontent.com/56379930/122901103-6e4c5f80-d377-11eb-8962-682333feb5b0.png)
