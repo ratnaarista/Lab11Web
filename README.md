@@ -86,3 +86,17 @@ Menu Contact
 `Nama : Ratna Arista`
 `NIM : 311910441`
 `Kelas : TI.19.A.2`
+
+Buat Database
+![p12(1)](https://user-images.githubusercontent.com/56379930/122893229-56251200-d370-11eb-81f2-0017808b8b9d.png)
+Buat Tabel
+![p12(2)](https://user-images.githubusercontent.com/56379930/122893250-5ae9c600-d370-11eb-866b-eab3982aa2fd.png)
+# Langkah 1 - Konfigurasi Koneksi Database
+Konfigurasi dapat dilakukan dengan cara mengubah beberapa kode pada file `htdocs\lab11_php_ci\ci4\.env.`
+![p12(3)](https://user-images.githubusercontent.com/56379930/122893274-61783d80-d370-11eb-9e8e-1ca04c9976d1.png)
+# Langkah 2 - Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori `app/Models` dengan nama `ArtikelModel.php`
+![p12(4)](https://user-images.githubusercontent.com/56379930/122893284-63da9780-d370-11eb-8255-f1256373750d.png)
+# Langkah 3 - Membuat Controller
+Buat Controller baru dengan nama `Artikel.php` pada direktori `app/Controllers.`
+![p12(5)](https://user-images.githubusercontent.com/56379930/122893288-65a45b00-d370-11eb-8f7c-6c3e3cfa3be5.png)
