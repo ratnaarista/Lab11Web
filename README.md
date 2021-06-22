@@ -63,5 +63,12 @@ Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada Co
 Kemudian buat folder template pada direktori view kemudian buat file `header.php` dan `footer.php`
 
 ![template](https://user-images.githubusercontent.com/56379930/122883589-8fa54f80-d367-11eb-8588-f203dba58691.png)
-
+File `app/view/template/footer.php`
+![Footer](https://user-images.githubusercontent.com/56379930/122888191-cda47280-d36b-11eb-8edc-83f3fa1a6afa.png)
+File `app/view/template/header.php`
+![header](https://user-images.githubusercontent.com/56379930/122888208-d09f6300-d36b-11eb-815a-4b7130d1df9e.png)
 ![halaman about output](https://user-images.githubusercontent.com/56379930/122883934-d7c47200-d367-11eb-870a-54a7392a3025.png)
+
+# Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+Update Controller `(page.php)`
