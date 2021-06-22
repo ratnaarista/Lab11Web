@@ -72,3 +72,11 @@ File `app/view/template/header.php`
 # Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 Update Controller `(page.php)`
+![page update](https://user-images.githubusercontent.com/56379930/122889303-dfd2e080-d36c-11eb-96ec-2f5f0cd81b59.png)
+Menu About
+![about](https://user-images.githubusercontent.com/56379930/122889365-eeb99300-d36c-11eb-96ac-d8313819908a.png)
+Menu Artikel
+![artikel](https://user-images.githubusercontent.com/56379930/122889392-f6793780-d36c-11eb-8eac-8c0d75067f22.png)
+Menu Contact
+![contact](https://user-images.githubusercontent.com/56379930/122889416-fb3deb80-d36c-11eb-82e8-958860014d0c.png)
+![halaman about output poto](https://user-images.githubusercontent.com/56379930/122889459-042ebd00-d36d-11eb-99e2-454a572452d0.png)
