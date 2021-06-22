@@ -45,9 +45,14 @@ untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perin
 
 # Membuat Controller
 Buat file baru dengan nama `page.php` pada `direktori Controller` kemudian isi kodenya seperti berikut
-![page php](https://user-images.githubusercontent.com/56379930/122883415-5ec51a80-d367-11eb-9544-9da3ad7451ba.png)
-selanjutnya refresh kembali browser, maka akan ditampilkan hasilnya yaitu halaman sudah dapat diakses.
+![page](https://user-images.githubusercontent.com/56379930/122886460-2ffc7380-d36a-11eb-87df-609cf8a5f349.png)
+Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halaman sudah dapat diakses.
 # Auto Route
+Tambahkan method baru pada Controller Page seperti berikut.
+![page php](https://user-images.githubusercontent.com/56379930/122883415-5ec51a80-d367-11eb-9544-9da3ad7451ba.png)
+![p11(2)](https://user-images.githubusercontent.com/56379930/122886472-338ffa80-d36a-11eb-93f3-d15e12f5fa31.png)
+# Membuat View
+Buat file baru dengan nama `about.php` pada direktori view `(app/view/about.php)` kemudian coding seperti berikut.
 ![sehabis page](https://user-images.githubusercontent.com/56379930/122883423-61c00b00-d367-11eb-9d01-22bfb83bba11.png)
 ![style](https://user-images.githubusercontent.com/56379930/122883568-89af6e80-d367-11eb-9a27-c7d988f3a17a.png)
 ![template](https://user-images.githubusercontent.com/56379930/122883589-8fa54f80-d367-11eb-8588-f203dba58691.png)
