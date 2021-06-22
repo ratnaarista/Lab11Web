@@ -83,3 +83,6 @@ Menu Contact
 ![halaman about output poto](https://user-images.githubusercontent.com/56379930/122889459-042ebd00-d36d-11eb-99e2-454a572452d0.png)
 
 # Praktikum 12 - Framework Lanjutan (CRUD)
+`Nama : Ratna Arista`
+`NIM : 311910441`
+`Kelas : TI.19.A.2`
