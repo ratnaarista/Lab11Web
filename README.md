@@ -100,3 +100,25 @@ Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pa
 # Langkah 3 - Membuat Controller
 Buat Controller baru dengan nama `Artikel.php` pada direktori `app/Controllers.`
 ![p12(5)](https://user-images.githubusercontent.com/56379930/122893288-65a45b00-d370-11eb-8f7c-6c3e3cfa3be5.png)
+# Langkah 4 - Membuat View
+Buat folder baru dengan nama `artikel` pada direktori `app/views`, kemudian buat file baru dengan nama `index.php.`
+![p12(6)](https://user-images.githubusercontent.com/56379930/122900714-20375c00-d377-11eb-9dd8-247143b8a110.png)
+
+![p12(7)](https://user-images.githubusercontent.com/56379930/122900730-2299b600-d377-11eb-9b39-8a8576893cca.png)
+
+![P12(8)](https://user-images.githubusercontent.com/56379930/122900740-2594a680-d377-11eb-9183-aabeafb9d5a6.png)
+Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+![p12(9)](https://user-images.githubusercontent.com/56379930/122900775-2c231e00-d377-11eb-9401-99288ac62123.png)
+
+![p12(10)](https://user-images.githubusercontent.com/56379930/122900819-32b19580-d377-11eb-8576-4d48efaf969f.png)
+
+![p12(11)](https://user-images.githubusercontent.com/56379930/122900851-380ee000-d377-11eb-8f57-b5c82c18efb7.png)
+
+![p12(12)](https://user-images.githubusercontent.com/56379930/122900884-3e04c100-d377-11eb-99ea-c1a6ec49f082.png)
+![p12(13)](https://user-images.githubusercontent.com/56379930/122900899-40ffb180-d377-11eb-8a42-5a6573b63bd7.png)
+
+![p12(15)](https://user-images.githubusercontent.com/56379930/122900932-4957ec80-d377-11eb-92c4-d1efaa16d4ab.png)
+![p12(16](https://user-images.githubusercontent.com/56379930/122900976-5248be00-d377-11eb-84be-04369d101172.png)
+![p12(17)](https://user-images.githubusercontent.com/56379930/122901007-583e9f00-d377-11eb-83d3-74e982a5d148.png)
+![p12(18)](https://user-images.githubusercontent.com/56379930/122901094-6bea0580-d377-11eb-83d4-67bfe4b82543.png)
+![p12(19)](https://user-images.githubusercontent.com/56379930/122901103-6e4c5f80-d377-11eb-8962-682333feb5b0.png)
