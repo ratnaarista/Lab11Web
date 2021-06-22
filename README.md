@@ -36,3 +36,19 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah php spark
 
 Mengaktifkan Mode Debugging pada Codeigniter
 ![whoops](https://user-images.githubusercontent.com/56379930/122051622-00e87e00-ce0f-11eb-88be-320bef906069.png)
+
+# Membuat Route baru
+Tambahkan kode berikut di dalam `app/config/Routes.php`
+![routes](https://user-images.githubusercontent.com/56379930/122883217-2b828b80-d367-11eb-8559-6ba6454c17cb.png)
+untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut
+![p11](https://user-images.githubusercontent.com/56379930/122883271-3b9a6b00-d367-11eb-9a62-0811bc0eaf18.png)
+
+# Membuat Controller
+Buat file baru dengan nama `page.php` pada `direktori Controller` kemudian isi kodenya seperti berikut
+![page php](https://user-images.githubusercontent.com/56379930/122883415-5ec51a80-d367-11eb-9544-9da3ad7451ba.png)
+selanjutnya refresh kembali browser, maka akan ditampilkan hasilnya yaitu halaman sudah dapat diakses.
+# Auto Route
+![sehabis page](https://user-images.githubusercontent.com/56379930/122883423-61c00b00-d367-11eb-9d01-22bfb83bba11.png)
+![style](https://user-images.githubusercontent.com/56379930/122883568-89af6e80-d367-11eb-9a27-c7d988f3a17a.png)
+![template](https://user-images.githubusercontent.com/56379930/122883589-8fa54f80-d367-11eb-8588-f203dba58691.png)
+![halaman about output](https://user-images.githubusercontent.com/56379930/122883934-d7c47200-d367-11eb-870a-54a7392a3025.png)
