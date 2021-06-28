@@ -177,7 +177,9 @@ Jangan lupa jalankan perintah ini untuk menjalankan ci4 di port 8080. Buka kemba
 Tambahkan CSS untuk mempercantikan tampilan login. Buka file `style.css` pada direktori `ci4\public\style.css`
 ![css](https://user-images.githubusercontent.com/56379930/123610835-2c199700-d82b-11eb-819d-2d53748090b4.png)
 Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+
 ![output](https://user-images.githubusercontent.com/56379930/123610974-50757380-d82b-11eb-996b-12e83efa852d.png)
+
 # Langkah 5 - Menambahkan Auth Filter
 Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama `Auth.php` pada direktori `app/Filters.`
 ![auth php](https://user-images.githubusercontent.com/56379930/123611042-61be8000-d82b-11eb-83cb-bcdf366cb9aa.png)
