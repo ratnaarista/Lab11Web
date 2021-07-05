@@ -202,8 +202,19 @@ Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang
 Kemudian buka file `views/artikel/admin_index.php` dan tambahkan kode berikut dibawah deklarasi tabel data.
 ![22](https://user-images.githubusercontent.com/56379930/124472587-80db8580-ddc8-11eb-8887-df73493cc221.png)
 Kemudian buka file `public/admin.css` tambahkan kode berikut untuk mempercantik tampilan pagination
-![1](https://user-images.githubusercontent.com/56379930/124472045-d9f6e980-ddc7-11eb-97d8-2605f1483678.png)
 
-![2](https://user-images.githubusercontent.com/56379930/124472655-93ee5580-ddc8-11eb-8845-5042808f205b.png)
 Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
 ![dah jd](https://user-images.githubusercontent.com/56379930/124472730-a9fc1600-ddc8-11eb-83b0-3afdd8601bd5.png)
+# Langkah 2 - Membuat Pencarian
+Pencarian data digunakan untuk memfilter data. Untuk membuat pencarian data, buka kembali Controller Artikel `(htdocs\lab11_php_ci\ci4\Controllers\Artikel.php)`, pada method admin_index ubah kodenya seperti berikut
+![2 1](https://user-images.githubusercontent.com/56379930/124474888-47f0e000-ddcb-11eb-8136-1ad2204d97b4.png)
+Kemudian buka kembali file `views/artikel/admin_index.php` dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+![2 2](https://user-images.githubusercontent.com/56379930/124474913-4e7f5780-ddcb-11eb-9a55-fe1e8d86bbc5.png)
+Dan pada link pager ubah seperti berikut.
+![2 3](https://user-images.githubusercontent.com/56379930/124474923-5212de80-ddcb-11eb-8bca-4ad79f37f28f.png)
+Kemudian buka file `public/admin.css` tambahkan kode berikut untuk mempercantik tampilan pencarian
+![1](https://user-images.githubusercontent.com/56379930/124472045-d9f6e980-ddc7-11eb-97d8-2605f1483678.png)
+Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+![22](https://user-images.githubusercontent.com/56379930/124474952-5939ec80-ddcb-11eb-9d6a-821551f10937.png)
+
+![2](https://user-images.githubusercontent.com/56379930/124472655-93ee5580-ddc8-11eb-8845-5042808f205b.png)
