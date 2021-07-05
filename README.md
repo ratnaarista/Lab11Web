@@ -202,7 +202,7 @@ Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang
 Kemudian buka file `views/artikel/admin_index.php` dan tambahkan kode berikut dibawah deklarasi tabel data.
 ![22](https://user-images.githubusercontent.com/56379930/124472587-80db8580-ddc8-11eb-8887-df73493cc221.png)
 Kemudian buka file `public/admin.css` tambahkan kode berikut untuk mempercantik tampilan pagination
-
+![pagination](https://user-images.githubusercontent.com/56379930/124476331-de71d100-ddcc-11eb-8b47-02def655b156.png)
 Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
 ![dah jd](https://user-images.githubusercontent.com/56379930/124472730-a9fc1600-ddc8-11eb-83b0-3afdd8601bd5.png)
 # Langkah 2 - Membuat Pencarian
@@ -216,5 +216,14 @@ Kemudian buka file `public/admin.css` tambahkan kode berikut untuk mempercantik 
 ![1](https://user-images.githubusercontent.com/56379930/124472045-d9f6e980-ddc7-11eb-97d8-2605f1483678.png)
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
 ![22](https://user-images.githubusercontent.com/56379930/124474952-5939ec80-ddcb-11eb-9d6a-821551f10937.png)
-
+# Langkah 3 - Upload Gambar
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel `(htdocs\lab11_php_ci\ci4\Controllers\Artikel.php)`, sesuaikan kode pada method add seperti berikut:
 ![2](https://user-images.githubusercontent.com/56379930/124472655-93ee5580-ddc8-11eb-8845-5042808f205b.png)
+Kemudian pada file views/artikel/form_add.php tambahkan field input file dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+![3](https://user-images.githubusercontent.com/56379930/124476394-f184a100-ddcc-11eb-98e4-7f1951059b56.png)
+Kemudian buka file `public/admin.css` tambahkan kode berikut untuk mempercantik tampilan tomboll upload gambar
+![4](https://user-images.githubusercontent.com/56379930/124476400-f34e6480-ddcc-11eb-9e4d-29c431824484.png)
+Ujicoba file upload dengan mengakses menu tambah artikel.
+![44](https://user-images.githubusercontent.com/56379930/124476442-0103ea00-ddcd-11eb-9ba9-d1ef0ebf68b2.png)
+
+
